@@ -9,6 +9,7 @@ const skillsData = [
     return(
         <>
             <h2 className="title">Skills</h2>
+            {/* <h2 className="title">Skills</h2> */}
             <p className="p-inputs">Web development knowledge rating</p>
             <div className="skills-box">
                 {skillsData.map((ISkill, index) => {
