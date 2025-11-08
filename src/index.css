@@ -249,7 +249,7 @@ html{
 }
 .skills-box{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1 1fr;
   width: 100%;
   gap: 3rem;
 }
@@ -432,7 +432,7 @@ form{
   border: #1e88e5;
   padding: 10px;
   border-radius: 1rem;
-  min-width:  20%;
+  min-width: 200px;
   align-self: center;
   color: white;
   cursor: pointer;
@@ -493,7 +493,129 @@ form{
 .span-copy{
   color: #1e88e5;
 }
-@media (max-width: 575px) {
+@media (max-width: 375px){
+  .list-style{
+  display: grid;
+   grid-template-columns: repeat(1, 1fr);
+  
+  list-style: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+
+.portfolio-box{
+  display: grid;
+  grid-template-columns:  1fr;
+  width: 100%;
+  gap: 1.5rem;
+  
+  
+}
+
+.side-nav {
+  position:fixed;
+  top: 95%;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  z-index: 1000;
+  
+}
+.nav-items::after {
+  /* content: attr(data-label); */
+  display: none;
+  position: absolute;
+  left: 50px; 
+  background: #1e88e5;
+  color: white;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-50%);
+  top: 50%;
+  white-space: nowrap;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  .Hero-content>h1{
+    font-size: 1.8rem;
+  }
+  .Hero-content> p{
+    font-size: 1.5rem;
+  }
+  .developer{
+    font-size: 1.5rem;
+  }
+  .Hero-content{
+    margin-left: 3.5rem;
+  }
+  .description{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+  align-items: stretch;
+  gap: 2rem;
+}
+.quote{
+  font-size: 0.7rem;
+}
+.profile-image{
+  
+  display: flex;
+  /* justify-content: center; */
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  align-self: center;
+  
+  
+}
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.contact-log{
+  width: 100%;
+}
+.form-box{
+  
+  width: 100%;
+}
+.submit{
+  width: 50%;
+}
+
+.Footer{
+  padding-bottom: 20%;
+}
+}
+@media (min-width: 375px) and (max-width: 574.9px) {
+  .list-style{
+  display: grid;
+   grid-template-columns: repeat(1, 1fr);
+  
+  list-style: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+.portfolio-box{
+  display: grid;
+  grid-template-columns:  1fr;
+  width: 100%;
+  gap: 1.5rem;
+  
+  
+}
+}
+@media (min-width: 375.1px) and (max-width: 575px) {
   .side-nav {
   position:fixed;
   top: 95%;
@@ -609,6 +731,14 @@ form{
   
   
 }
+.portfolio-box{
+  display: grid;
+  grid-template-columns:  1fr;
+  width: 100%;
+  gap: 1.5rem;
+  
+  
+}
 .contact-box{
   display: flex;
   flex-direction: column;
@@ -631,6 +761,7 @@ form{
 .Footer{
   padding-bottom: 3%;
 }
+
 }
 
 @media (min-width: 767.1px) and (max-width: 991.9px) {
@@ -659,6 +790,14 @@ form{
   border-radius: 10px;
   overflow: hidden;
   align-self: center;
+  
+  
+}
+.portfolio-box{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  width: 100%;
+  gap: 1.5rem;
   
   
 }
