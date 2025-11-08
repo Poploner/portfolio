@@ -11,7 +11,7 @@ html{
 .Hero{
   position: relative;
   height: 100vh;
-  background: url('./src/images/adam.jpeg') 80% center/cover no-repeat;
+  background: url('./src/images/Adam.jpeg') 80% center/cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;

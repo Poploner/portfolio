@@ -7,7 +7,7 @@ export default function About(){
                 <div className="profile-image">
                     <img 
                     className="image"
-                    src="/src/images/adam.jpeg"
+                    src="/src/images/Adam.jpeg"
                     alt="profile picture"
                     />
                 </div>
