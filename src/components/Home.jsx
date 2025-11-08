@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import About from "./About";
-import Skill from "./skill";
+import Skill from "./Skill";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
