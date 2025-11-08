@@ -1,9 +1,9 @@
-import FirstImage from "../images/FirstImage.png";
-import SecondImage from "../images/SecondImage.png";
-import ThirdImage from "../images/ThirdImage.png";
-import FourthImage from "../images/FourthImage.png"
-import FifthImage from "../images/FifthImage.png"
-import SixthImage from "../images/SixthImage.png"
+import FirstImage from "/images/FirstImage.png";
+import SecondImage from "/images/SecondImage.png";
+import ThirdImage from "/images/ThirdImage.png";
+import FourthImage from "/images/FourthImage.png"
+import FifthImage from "/images/FifthImage.png"
+import SixthImage from "/images/SixthImage.png"
 
 
 export default [

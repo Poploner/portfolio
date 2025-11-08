@@ -1,4 +1,4 @@
-import AdamImage from "../images/Adam.jpeg"
+
 
 export default function About(){
     return(
@@ -9,7 +9,7 @@ export default function About(){
                 <div className="profile-image">
                     <img 
                     className="image"
-                    src={AdamImage}
+                    src="/images/Adam.jpeg"
                     alt="profile picture"
                     />
                 </div>
